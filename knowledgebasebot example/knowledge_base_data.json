@@ -1,0 +1,125 @@
+{
+    "restaurant": [
+        {
+            "id": 0,
+            "name": "nasgor 6 ribu",
+            "cuisine": "chinese",
+            "outside-seating": true,
+            "price-range": "murah"
+        },
+        {
+            "id": 1,
+            "name": "KFC",
+            "cuisine": "Fried Chicken",
+            "outside-seating": false,
+            "price-range": "mahal"
+        },
+        {
+            "id": 2,
+            "name": "Ayam geprek udinus",
+            "cuisine": "Indonesia",
+            "outside-seating": true,
+            "price-range": "murah"
+        },
+        {
+            "id": 3,
+            "name": "solaria",
+            "cuisine": "Chinese",
+            "outside-seating": true,
+            "price-range": "lumayan mahal"
+        },
+        {
+            "id": 4,
+            "name": "sate ayam pak pardi",
+            "cuisine": "madura",
+            "outside-seating": true,
+            "price-range": "murah"
+        },
+        {
+            "id": 5,
+            "name": "nasi uduk mba intan",
+            "cuisine": "sunda",
+            "outside-seating": false,
+            "price-range": "murah"
+        },
+        {
+            "id": 6,
+            "name": "pecel pak kaji",
+            "cuisine": "jawa",
+            "outside-seating": true,
+            "price-range": "murah"
+        }
+    ],
+    "hotel": [
+        {
+            "id": 0,
+            "name": "Hilton",
+            "price-range": "expensive",
+            "breakfast-included": true,
+            "city": "Berlin",
+            "free-wifi": true,
+            "star-rating": 5,
+            "swimming-pool": true
+        },
+        {
+            "id": 1,
+            "name": "Hilton",
+            "price-range": "expensive",
+            "breakfast-included": true,
+            "city": "Frankfurt am Main",
+            "free-wifi": true,
+            "star-rating": 4,
+            "swimming-pool": false
+        },
+        {
+            "id": 2,
+            "name": "B&B",
+            "price-range": "mid-range",
+            "breakfast-included": false,
+            "city": "Berlin",
+            "free-wifi": false,
+            "star-rating": 1,
+            "swimming-pool": false
+        },
+        {
+            "id": 3,
+            "name": "Berlin Wall Hostel",
+            "price-range": "cheap",
+            "breakfast-included": false,
+            "city": "Berlin",
+            "free-wifi": true,
+            "star-rating": 2,
+            "swimming-pool": false
+        },
+        {
+            "id": 4,
+            "name": "City Hotel",
+            "price-range": "expensive",
+            "breakfast-included": true,
+            "city": "Frankfurt am Main",
+            "free-wifi": true,
+            "star-rating": 3,
+            "swimming-pool": false
+        },
+        {
+            "id": 5,
+            "name": "Jugendherberge",
+            "price-range": "cheap",
+            "breakfast-included": true,
+            "city": "Berlin",
+            "free-wifi": false,
+            "star-rating": 2,
+            "swimming-pool": false
+        },
+        {
+            "id": 6,
+            "name": "Berlin Hotel",
+            "price-range": "mid-range",
+            "breakfast-included": true,
+            "city": "Berlin",
+            "free-wifi": true,
+            "star-rating": 3,
+            "swimming-pool": true
+        }
+    ]
+}

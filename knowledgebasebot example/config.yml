@@ -1,0 +1,23 @@
+recipe: default.v1
+language: en
+
+pipeline:
+  - name: "WhitespaceTokenizer"
+  - name: "RegexFeaturizer"
+  - name: "LexicalSyntacticFeaturizer"
+  - name: "CountVectorsFeaturizer"
+  - name: "CountVectorsFeaturizer"
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+  - name: "DIETClassifier"
+    epochs: 100
+  - name: "EntitySynonymMapper"
+  - name: RegexEntityExtractor
+    case_sensitive: False
+    use_lookup_tables: True
+    use_regexes: True
+
+policies:
+  - name: RulePolicy
+  
