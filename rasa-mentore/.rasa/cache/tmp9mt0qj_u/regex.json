@@ -1,0 +1,6 @@
+[
+  {
+    "name": "teknologi_informasi",
+    "pattern": "(\\bdasar\\ komputer\\b|\\bpemrograman\\ dasar\\b|\\bdatabase\\ dasar\\b|\\bweb\\ development\\ dasar\\b|\\bpengenalan\\ machine\\ learning\\b)"
+  }
+]

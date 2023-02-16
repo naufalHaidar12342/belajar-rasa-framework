@@ -1,0 +1,96 @@
+version: "3.1"
+
+intents:
+    - greet
+    - goodbye
+    - affirm
+    - deny
+    - mood_great
+    - mood_unhappy
+    - bot_challenge
+    - query_teknologi_informasi
+
+entities:
+    - object_type
+    - attribute
+    - mention
+    - teknologi_informasi
+
+slots:
+    knowledge_base_last_object:
+        type: any
+        mappings:
+            - type: custom
+
+    knowledge_base_last_object_type:
+        type: any
+        mappings:
+            - type: custom
+
+    knowledge_base_listed_objects:
+        type: any
+        mappings:
+            - type: custom
+
+    knowledge_base_objects:
+        type: any
+        mappings:
+            - type: custom
+
+    object_type:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: object_type
+
+    attribute:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: attribute
+
+    mention:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: mention
+
+    teknologi_informasi:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: teknologi_informasi
+actions:
+    - action_query_teknologi_informasi
+
+responses:
+    utter_greet:
+        - text: "Hey! How are you?"
+
+    utter_cheer_up:
+        - text: "Here is something to cheer you up:"
+          image: "https://i.imgur.com/nGF1K8f.jpg"
+
+    utter_did_that_help:
+        - text: "Did that help you?"
+
+    utter_happy:
+        - text: "Great, carry on!"
+
+    utter_goodbye:
+        - text: "Bye"
+
+    utter_iamabot:
+        - text: "I am a bot, powered by Rasa."
+
+    utter_ask_rephrase:
+        - text: "Maaf, saya tidak mengerti maksud anda."
+        - text: "Bisakah anda mengulanginya?"
+
+session_config:
+    session_expiration_time: 60
+    carry_over_slots_to_new_session: true

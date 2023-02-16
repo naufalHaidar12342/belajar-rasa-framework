@@ -1,0 +1,6 @@
+[
+  {
+    "name": "judul",
+    "pattern": "(\\bdasar\\ komputer\\b|\\bpemrograman\\ dasar\\b)"
+  }
+]

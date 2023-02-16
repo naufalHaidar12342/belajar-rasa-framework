@@ -1,63 +1,63 @@
 version: "3.1"
 nlu:
-  - intent: bot_challenge
-    examples: |
-      - are you a bot?
-      - are you a human?
-      - am I talking to a bot?
-      - am I talking to a human?
+    - intent: bot_challenge
+      examples: |
+          - are you a bot?
+          - are you a human?
+          - am I talking to a bot?
+          - am I talking to a human?
 
-  - intent: musik_senam
-    examples: |
-      - mainkan video senam
-      - mainkan musik senam 
+    - intent: musik_senam
+      examples: |
+          - mainkan video senam
+          - mainkan musik senam
 
-  - intent: greet
-    examples: |
-      - hey
-      - hello
-      - hi
-      - good morning
-      - good evening
-      - hey there
+    - intent: greet
+      examples: |
+          - hey
+          - hello
+          - hi
+          - good morning
+          - good evening
+          - hey there
 
-  - intent: goodbye
-    examples: |
-      - bye
-      - goodbye
-      - see you around
-      - see you later
+    - intent: goodbye
+      examples: |
+          - bye
+          - goodbye
+          - see you around
+          - see you later
 
-  - intent: query_knowledge_base
-    examples: |
-      - info [tempat makan]{"entity": "object_type", "value": "restaurant"} dong 
-      - [harga]{"entity": "attribute", "value": "price-range"} sekali makan di [KFC]{"entity": "restaurant"} berapaan ? 
-      - [tempat makan]{"entity": "object_type", "value": "restaurant"}  yang punya masakan [sunda]{"entity": "cuisine"}  apa ya ?
-      - [tempat makan]{"entity": "object_type", "value": "restaurant"}  yang punya masakan [jawa]{"entity": "cuisine"}  apa ya ?
-      - [tempat makan]{"entity": "object_type", "value": "restaurant"} yang ready masakan [sunda]{"entity": "cuisine"} yang mana ?
-      - 
-  - lookup: restaurant
-    examples: |
-      - KFC
-      - nasgor 6 ribu
-      - Ayam geprek udinus
-      - solaria
-      - sate ayam pak pardi
-      - nasi uduk mba intan
-      - pecel pak kaji
+    - intent: query_knowledge_base
+      examples: |
+          - info [tempat makan]{"entity": "object_type", "value": "restaurant"} dong 
+          - [harga]{"entity": "attribute", "value": "price-range"} sekali makan di [KFC]{"entity": "restaurant"} berapaan ? 
+          - [tempat makan]{"entity": "object_type", "value": "restaurant"}  yang punya masakan [sunda]{"entity": "cuisine"}  apa ya ?
+          - [tempat makan]{"entity": "object_type", "value": "restaurant"}  yang punya masakan [jawa]{"entity": "cuisine"}  apa ya ?
+          - [tempat makan]{"entity": "object_type", "value": "restaurant"} yang ready masakan [sunda]{"entity": "cuisine"} yang mana ?
+          -
+    - lookup: restaurant
+      examples: |
+          - KFC
+          - nasgor 6 ribu
+          - Ayam geprek udinus
+          - solaria
+          - sate ayam pak pardi
+          - nasi uduk mba intan
+          - pecel pak kaji
 
-  - lookup: cuisine
-    examples: |
-      - madura
-      - sunda
-      - chinese
-      - jawa
-      
-  - lookup: hotel
-    examples: |
-      - Hilton
-      - B&B
-      - Berlin Wall Hostel
-      - City Hotel
-      - Jugendherberge
-      - Berlin Hotel
+    - lookup: cuisine
+      examples: |
+          - madura
+          - sunda
+          - chinese
+          - jawa
+
+    - lookup: hotel
+      examples: |
+          - Hilton
+          - B&B
+          - Berlin Wall Hostel
+          - City Hotel
+          - Jugendherberge
+          - Berlin Hotel

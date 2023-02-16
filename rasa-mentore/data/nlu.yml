@@ -1,0 +1,113 @@
+version: "3.1"
+
+nlu:
+    - intent: greet
+      examples: |
+          - hey
+          - hello
+          - hi
+          - hello there
+          - good morning
+          - good evening
+          - moin
+          - hey there
+          - let's go
+          - hey dude
+          - goodmorning
+          - goodevening
+          - good afternoon
+
+    - intent: goodbye
+      examples: |
+          - cu
+          - good by
+          - cee you later
+          - good night
+          - bye
+          - goodbye
+          - have a nice day
+          - see you around
+          - bye bye
+          - see you later
+
+    - intent: affirm
+      examples: |
+          - yes
+          - y
+          - indeed
+          - of course
+          - that sounds good
+          - correct
+
+    - intent: deny
+      examples: |
+          - no
+          - n
+          - never
+          - I don't think so
+          - don't like that
+          - no way
+          - not really
+
+    - intent: mood_great
+      examples: |
+          - perfect
+          - great
+          - amazing
+          - feeling like a king
+          - wonderful
+          - I am feeling very good
+          - I am great
+          - I am amazing
+          - I am going to save the world
+          - super stoked
+          - extremely good
+          - so so perfect
+          - so good
+          - so perfect
+
+    - intent: mood_unhappy
+      examples: |
+          - my day was horrible
+          - I am sad
+          - I don't feel very well
+          - I am disappointed
+          - super sad
+          - I'm so sad
+          - sad
+          - very sad
+          - unhappy
+          - not good
+          - not very good
+          - extremly sad
+          - so saad
+          - so sad
+
+    - intent: bot_challenge
+      examples: |
+          - are you a bot?
+          - are you a human?
+          - am I talking to a bot?
+          - am I talking to a human?
+
+    - intent: query_teknologi_informasi
+      examples: |
+          - saya ingin belajar tentang [teknologi informasi]{"entity": "object_type", "value": "teknologi_informasi"}
+          - apa saja yang dipelajari di [teknologi informasi]{"entity": "object_type", "value": "teknologi_informasi"}
+          - apa itu [materi]{"entity": "attribute", "value": "deskripsi"} [dasar komputer]{"entity": "teknologi_informasi"}
+          - coba jelaskan tentang [materi]{"entity": "attribute", "value": "deskripsi"}  [dasar komputer]{"entity": "teknologi_informasi"}
+          - terangkan [materi]{"entity": "attribute", "value": "deskripsi"} tentang [dasar komputer]{"entity": "teknologi_informasi"}
+          - [untuk]{"entity": "attribute", "value": "tujuan"} apa kita belajar materi [ini]{"entity": "mention"}
+          - apa [tujuan]{"entity": "attribute"} belajar [pemrograman dasar]{"entity": "teknologi_informasi"}
+          - apa [gunanya]{"entity": "attribute", "value": "tujuan"} belajar [pemrograman dasar]{"entity": "teknologi_informasi"}
+          - jelaskan [bab 1]{"entity": "attribute", "value": "bab_1"} pada materi [pemrograman dasar]{"entity": "teknologi_informasi"}
+          - apa [bab 2]{"entity": "attribute", "value": "bab_2"} materi [pemrograman dasar]{"entity": "teknologi_informasi"}
+          - terangkan [bab 3]{"entity": "attribute", "value": "bab_3"} dari materi [ini]{"entity": "mention"}
+
+    - lookup: teknologi_informasi
+      examples: |
+          - dasar komputer
+          - pemrograman dasar
+          - database dasar
+          - web development dasar
+          - pengenalan machine learning

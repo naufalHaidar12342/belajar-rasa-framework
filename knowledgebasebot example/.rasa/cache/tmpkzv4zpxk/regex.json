@@ -1,0 +1,10 @@
+[
+  {
+    "name": "restaurant",
+    "pattern": "(\\bKFC\\b|\\bnasgor\\ 6\\ ribu\\b|\\bAyam\\ geprek\\ udinus\\b|\\bsolaria\\b|\\bsate\\ ayam\\ pak\\ pardi\\b|\\bnasi\\ uduk\\ mba\\ intan\\b|\\bpecel\\ pak\\ kaji\\b)"
+  },
+  {
+    "name": "cuisine",
+    "pattern": "(\\bmadura\\b|\\bsunda\\b|\\bchinese\\b|\\bjawa\\b)"
+  }
+]

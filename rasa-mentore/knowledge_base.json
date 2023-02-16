@@ -1,0 +1,49 @@
+{
+    "teknologi_informasi": [
+        {
+            "id": "0",
+            "judul": "dasar komputer",
+            "deskripsi": "Materi ini membahas tentang dasar-dasar komputer, mulai dari hardware, software sampai jaringan komputer, termasuk juga fungsi-fungsi dasar dari setiap bagian komputer. Materi ini Akan di bahas dalam 3 Bab",
+            "tujuan": "Setelah mengikuti materi ini, peserta diharapkan dapat mengerti tentang dasar-dasar komputer dan bagaimana setiap bagian bekerja serta berkomunikasi satu sama lain.",
+            "bab_1": "Bab 1 yaitu mengenai hardware komputer dimana pada bab ini akan membahas tentang bagian-bagian fisik dalam komputer dan fungsinya.",
+            "bab_2": "Bab 2 yaitu mengenai software komputer dimana pada bab ini membahas tentang program-program yang digunakan pada komputer dan fungsinya.",
+            "bab_3": "Bab 3 yaitu mengenai jaringan komputer dimana pada bab ini membahas tentang bagaimana komputer saling berkomunikasi satu sama lain dan bagaimana koneksi internet bekerja."
+        },
+        {
+            "id": "1",
+            "judul": "pemrograman dasar",
+            "deskripsi": "Materi ini membahas tentang dasar-dasar pemrograman, mulai dari pengenalan bahasa pemrograman, algoritma, syntax hingga membuat program sederhana. Materi ini Akan di bahas dalam 3 Bab",
+            "tujuan": "Setelah mengikuti materi ini, peserta diharapkan dapat memahami dasar-dasar pemrograman dan dapat membuat program sederhana.",
+            "bab_1": "Bab 1 yaitu mengenai pengenalan bahasa pemrograman, algoritma dan syntax",
+            "bab_2": "Bab 2 yaitu membahas tentang variabel, operator dan control flow",
+            "bab_3": "Bab 3 yaitu membahas tentang function, array dan string"
+        },
+        {
+            "id": "2",
+            "judul": "database dasar",
+            "deskripsi": "Materi ini membahas tentang dasar-dasar database, termasuk jenis-jenis database, cara membangun tabel, dan pengenalan SQL. Materi ini akan dibahas dalam 3 bab.",
+            "tujuan": "Setelah mengikuti materi ini, peserta diharapkan dapat memahami konsep dasar database, membangun tabel, serta mampu membuat dan menjalankan query SQL sederhana.",
+            "bab_1": "Bab 1 membahas tentang jenis-jenis database, dan bagaimana cara membangun sebuah tabel.",
+            "bab_2": "Bab 2 membahas tentang pengenalan SQL, struktur query, dan statement sederhana.",
+            "bab_3": "Bab 3 membahas tentang pengambilan data, pengelompokan, penyaringan, pengurutan, dan penggabungan data menggunakan SQL."
+        },
+        {
+            "id": "3",
+            "judul": "web development dasar",
+            "deskripsi": "Materi ini membahas tentang dasar-dasar pengembangan website, termasuk HTML, CSS, dan JavaScript. Materi ini akan dibahas dalam 3 bab.",
+            "tujuan": "Setelah mengikuti materi ini, peserta diharapkan dapat memahami konsep dasar pengembangan website, serta mampu membuat tampilan website sederhana dengan HTML, CSS, dan JavaScript.",
+            "bab_1": "Bab 1 membahas tentang pengenalan HTML, dan cara membuat halaman website sederhana.",
+            "bab_2": "Bab 2 membahas tentang pengenalan CSS, dan cara mempercantik tampilan website.",
+            "bab_3": "Bab 3 membahas tentang pengenalan JavaScript, dan cara membuat interaksi sederhana pada website."
+        },
+        {
+            "id": "4",
+            "judul": "pengenalan machine learning",
+            "deskripsi": "Materi ini membahas konsep dasar dari Machine Learning, jenis-jenis Machine Learning, dan penerapannya dalam kehidupan sehari-hari. Materi ini akan dibahas dalam 3 bab",
+            "tujuan": "Setelah mengikuti materi ini, peserta diharapkan dapat memahami konsep dasar Machine Learning dan penerapannya dalam kehidupan sehari-hari",
+            "bab_1": "Bab 1 membahas tentang konsep dasar Machine Learning, seperti supervised dan unsupervised learning, regression dan classification",
+            "bab_2": "Bab 2 membahas tentang jenis-jenis Machine Learning, seperti Decision Tree, Random Forest, Support Vector Machine, Neural Network, dan Deep Learning",
+            "bab_3": "Bab 3 membahas tentang penerapan Machine Learning dalam kehidupan sehari-hari, seperti prediksi harga saham, analisis sentimen, dan image recognition"
+        }
+    ]
+}

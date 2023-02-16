@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-attribute",
+      "2": "I-attribute",
+      "3": "L-attribute",
+      "4": "U-attribute",
+      "5": "B-mention",
+      "6": "I-mention",
+      "7": "L-mention",
+      "8": "U-mention",
+      "9": "B-object_type",
+      "10": "I-object_type",
+      "11": "L-object_type",
+      "12": "U-object_type",
+      "13": "B-teknologi_informasi",
+      "14": "I-teknologi_informasi",
+      "15": "L-teknologi_informasi",
+      "16": "U-teknologi_informasi",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-attribute": 1,
+      "I-attribute": 2,
+      "L-attribute": 3,
+      "U-attribute": 4,
+      "B-mention": 5,
+      "I-mention": 6,
+      "L-mention": 7,
+      "U-mention": 8,
+      "B-object_type": 9,
+      "I-object_type": 10,
+      "L-object_type": 11,
+      "U-object_type": 12,
+      "B-teknologi_informasi": 13,
+      "I-teknologi_informasi": 14,
+      "L-teknologi_informasi": 15,
+      "U-teknologi_informasi": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

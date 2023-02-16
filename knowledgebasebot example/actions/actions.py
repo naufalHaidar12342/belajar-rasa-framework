@@ -18,9 +18,7 @@ class ActionMyKB(ActionQueryKnowledgeBase):
 
         # overwrite the representation function of the hotel object
         # by default the representation function is just the name of the object
-        knowledge_base.set_representation_function_of_object(
-           "hotel", lambda obj: obj["name"] + " (" + obj["city"] + ")"
-       )
+        knowledge_base.set_representation_function_of_object("hotel", lambda obj: obj["name"] + " (" + obj["city"] + ")" )
         super().__init__(knowledge_base)
 
     #    utter_objects(text=f"Found the following objects of type '{object_type}':") 

@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-attribute",
+      "2": "I-attribute",
+      "3": "L-attribute",
+      "4": "U-attribute",
+      "5": "B-judul",
+      "6": "I-judul",
+      "7": "L-judul",
+      "8": "U-judul",
+      "9": "B-mention",
+      "10": "I-mention",
+      "11": "L-mention",
+      "12": "U-mention",
+      "13": "B-object_type",
+      "14": "I-object_type",
+      "15": "L-object_type",
+      "16": "U-object_type",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-attribute": 1,
+      "I-attribute": 2,
+      "L-attribute": 3,
+      "U-attribute": 4,
+      "B-judul": 5,
+      "I-judul": 6,
+      "L-judul": 7,
+      "U-judul": 8,
+      "B-mention": 9,
+      "I-mention": 10,
+      "L-mention": 11,
+      "U-mention": 12,
+      "B-object_type": 13,
+      "I-object_type": 14,
+      "L-object_type": 15,
+      "U-object_type": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-attribute",
+      "2": "I-attribute",
+      "3": "L-attribute",
+      "4": "U-attribute",
+      "5": "B-cuisine",
+      "6": "I-cuisine",
+      "7": "L-cuisine",
+      "8": "U-cuisine",
+      "9": "B-object_type",
+      "10": "I-object_type",
+      "11": "L-object_type",
+      "12": "U-object_type",
+      "13": "B-restaurant",
+      "14": "I-restaurant",
+      "15": "L-restaurant",
+      "16": "U-restaurant",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-attribute": 1,
+      "I-attribute": 2,
+      "L-attribute": 3,
+      "U-attribute": 4,
+      "B-cuisine": 5,
+      "I-cuisine": 6,
+      "L-cuisine": 7,
+      "U-cuisine": 8,
+      "B-object_type": 9,
+      "I-object_type": 10,
+      "L-object_type": 11,
+      "U-object_type": 12,
+      "B-restaurant": 13,
+      "I-restaurant": 14,
+      "L-restaurant": 15,
+      "U-restaurant": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {
+    "name": "makanan-nusantara",
+    "pattern": "(\\bNasi\\ Megono\\b|\\bLumpia\\ Semarang\\b|\\bWingko\\ Babat\\b)"
+  }
+]
